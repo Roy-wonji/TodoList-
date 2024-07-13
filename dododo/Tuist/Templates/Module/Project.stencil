@@ -1,0 +1,15 @@
+import Foundation
+import ProjectDescription
+import DependencyPlugin
+import ProjectTemplatePlugin
+
+let project = Project.makeAppModule(
+name: "{{ name }}",
+bundleId: .appBundleID(name: ".{{name}}"),
+product: .staticFramework,
+settings:  .settings(),
+dependencies: [
+
+],
+sources: ["Sources/**"]
+)

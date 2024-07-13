@@ -1,0 +1,22 @@
+//
+//  base.swift
+//  BeatMaster
+//
+//  Created by {{ author }} on {{ currentDate }}
+//  Copyright © {{ year }} Team.hae.jo, All rights reserved.
+//
+
+import SwiftUI
+
+struct BaseView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+

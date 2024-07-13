@@ -1,0 +1,19 @@
+//
+//  demoApplication.stencil.swift
+//  BeatMaster
+//
+//  Created by {{ author }} on {{ currentDate }}
+//  Copyright © {{ year }} Team.hae.jo , Ltd. All rights reserved.
+//
+
+import SwiftUI
+
+
+@main
+struct {{ name }}: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}

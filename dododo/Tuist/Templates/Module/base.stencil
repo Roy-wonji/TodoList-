@@ -1,0 +1,22 @@
+//
+//  base.swift
+//  DDDAttendance.
+//
+//  Created by {{ author }} on {{ currentDate }}
+//  Copyright © {{ year }} DoDo , Ltd., All rights reserved.
+//
+
+import SwiftUI
+
+struct BaseView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+

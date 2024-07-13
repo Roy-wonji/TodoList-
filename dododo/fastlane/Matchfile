@@ -1,0 +1,7 @@
+git_url("https://github.com/TrandyTuist/DrumBeatMaster_Fastlane.git")
+
+storage_mode("git")
+
+#type("development") # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier(["Roy.com.Handa"])
